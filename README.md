@@ -12,3 +12,9 @@ Atlas          |  Native T2 |  Native T2 after skill stripping | Native T2 norma
 ![](https://github.com/fahsuanlin/study_preterm/blob/main/images/t2_template.png?raw=true)  | ![](https://github.com/fahsuanlin/study_preterm/blob/main/images/t2_native.png?raw=true)| ![](https://github.com/fahsuanlin/study_preterm/blob/main/images/t2_bet_native.png?raw=true) | ![](https://github.com/fahsuanlin/study_preterm/blob/main/images/t2_bet_native2template.png?raw=true)
 
 
+- registration between fMRI and native T2-weighted structural images
+  **A smaller range of rotation is allowed.
+  
+  ```
+  	flirt -ref 3dt2-s285 -in fmri_s285 -out whole_func2highres -omat whole_func2highres.mat -searchrx -3 3 -searchry -3 3 -searchrz -3 3 -v
+  ```
