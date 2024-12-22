@@ -23,3 +23,7 @@ Atlas          |  Native T2 |  Native T2 after skill stripping | Native T2 norma
   ```
   convert_xfm -concat highres2standard.mat -omat func2standard.mat whole_func2highres.mat
   ```
+- apply the combined registration matrix to fMRI:
+ ```
+flirt -ref ../atlas/BCP-atlas-for_release-Ver2.0.0/00Month/BCP-00M-T2.nii.gz -in fmri_s285 -applyxfm -init func2standard.mat -out fmri2standard
+```
