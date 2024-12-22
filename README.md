@@ -18,3 +18,8 @@ Atlas          |  Native T2 |  Native T2 after skill stripping | Native T2 norma
   ```
   	flirt -ref 3dt2-s285 -in fmri_s285 -out whole_func2highres -omat whole_func2highres.mat -searchrx -3 3 -searchry -3 3 -searchrz -3 3 -v
   ```
+
+- combine two registration matrices (functional to structural; structural to atlas):
+  ```
+  convert_xfm -concat highres2standard.mat -omat func2standard.mat whole_func2highres.mat
+  ```
