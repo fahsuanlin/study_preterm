@@ -9,6 +9,6 @@ flirt -ref ../atlas/BCP-atlas-for_release-Ver2.0.0/00Month/BCP-00M-T2.nii.gz -in
 ```
 Atlas          |  Native T2 |  Native T2 after skill stripping | Native T2 normalized
 :-------------:|:----------:|:--------------------------------:|:-------------------------:
-![](https://github.com/fahsuanlin/study_preterm/blob/main/images/t2_template.png?raw=true)  | ![](https://github.com/fahsuanlin/study_preterm/blob/main/images/t2_native.png?raw=true)| ![](https://github.com/fahsuanlin/study_preterm/blob/main/images/t2_native_bet.png?raw=true) | ![](https://github.com/fahsuanlin/study_preterm/blob/main/images/t2_bet_native2template.png?raw=true)
+![](https://github.com/fahsuanlin/study_preterm/blob/main/images/t2_template.png?raw=true)  | ![](https://github.com/fahsuanlin/study_preterm/blob/main/images/t2_native.png?raw=true)| ![](https://github.com/fahsuanlin/study_preterm/blob/main/images/t2_bet_native.png?raw=true) | ![](https://github.com/fahsuanlin/study_preterm/blob/main/images/t2_bet_native2template.png?raw=true)
 
 
