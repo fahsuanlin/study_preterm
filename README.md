@@ -1,3 +1,10 @@
+## file conversion
+convert dcm files to nii.gz format
+
+```
+mri_convert 02700_1.3.46.670589.11.71344.5.0.7520.2024011811412976126.dcm ../test.nii.gz
+```
+
 ## image registration/normalization
 1. register and normalize between atlas and individual's structural MRI
    
